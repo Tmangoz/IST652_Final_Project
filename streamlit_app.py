@@ -11,6 +11,6 @@ StocksDF = pd.DataFrame(csvread)
 
 st.title('Team Alpha Stock Final Project')
 
-print(StocksDF.head())
+st.dataframe(StocksDF[Data])
 
 
