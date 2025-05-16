@@ -17,5 +17,9 @@ Answer2 = str(st.text_input('Please enter the date of that stock you would like 
 cAnswer = Answer.upper()
 cAnswer2 = Answer.upper()
 if st.button("Search"):
-  if cAnswer  = 'NVDA':
+  if cAnswer  == 'NVDA':
     result = StocksDF.loc[StocksDF.Date = cAnswer2,['Open_NVDA', 'Close_NVDA'] 
+  else
+    return false
+else
+print('Please enter a valid stock or date')
