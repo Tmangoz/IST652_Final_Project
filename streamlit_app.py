@@ -20,6 +20,6 @@ if st.button("Search"):
   if cAnswer  == 'NVDA':
     result = StocksDF.loc[StocksDF.Date == cAnswer2,['Open_NVDA', 'Close_NVDA']] 
   else:
-    return false
+    print('Please enter a valid stock or date')
 else:
   print('Please enter a valid stock or date')
