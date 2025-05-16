@@ -11,6 +11,6 @@ StocksDF = pd.DataFrame(csvread)
 
 st.title('Team Alpha Stock Final Project')
 
-st.dataframe(StocksDF[Data])
+st.dataframe(StocksDF['Date'])
 
 
