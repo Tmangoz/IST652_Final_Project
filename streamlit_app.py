@@ -18,7 +18,7 @@ cAnswer = Answer.upper()
 cAnswer2 = Answer.upper()
 if st.button("Search"):
   if cAnswer  == 'NVDA':
-    result = StocksDF.loc[StocksDF.Date = cAnswer2,['Open_NVDA', 'Close_NVDA'] 
+    result = StocksDF.loc[StocksDF.Date == cAnswer2,['Open_NVDA', 'Close_NVDA'] 
   else
     return false
 else
